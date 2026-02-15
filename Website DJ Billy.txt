@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DJ Billy </title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#000; color:#e6f2ff; }
+    .poster {
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      background:radial-gradient(circle at top,#9fd3ff 0%,#5aa9e6 20%,#0b1a2a 45%,#000 75%);
+      text-align:center;
+      padding:40px 20px 60px;
+      position:relative;
+      overflow:hidden;
+    }
+    .chrome {
+      position:absolute;
+      inset:0;
+      background:linear-gradient(120deg,rgba(255,255,255,.25),rgba(192,192,192,.15),rgba(255,255,255,.25));
+      mix-blend-mode:overlay;
+      opacity:.5;
+      pointer-events:none;
+    }
+    h1 {
+      font-size:82px;
+      margin:20px 0 10px;
+      letter-spacing:6px;
+      font-weight:900;
+      color:#cfe9ff;
+      text-shadow:0 0 20px rgba(159,211,255,.9), 0 0 60px rgba(192,192,192,.8);
+    }
+    .subtitle {
+      font-size:28px;
+      font-weight:800;
+      letter-spacing:3px;
+      color:#9fd3ff;
+      margin-bottom:30px;
+      text-shadow:0 0 12px rgba(159,211,255,.8);
+    }
+
+    /* Headshot styles */
+    .headshot-wrap {
+      margin:20px auto 10px;
+      width:260px;
+      height:260px;
+      border-radius:50%;
+      padding:6px;
+      background:linear-gradient(135deg,#c0c0c0,#ffffff,#9fd3ff,#c0c0c0);
+      box-shadow:0 0 30px rgba(192,192,192,.9);
+    }
+    .headshot {
+      width:100%;
+      height:100%;
+      border-radius:50%;
+      object-fit:cover;
+      display:block;
+      background:#0b1a2a;
+    }
+    .headshot-caption {
+      font-size:14px;
+      letter-spacing:2px;
+      margin-top:10px;
+      opacity:.85;
+    }
+
+    .dates {
+      max-width:900px;
+      margin:10px auto 0;
+      border-top:1px solid rgba(159,211,255,.4);
+      border-bottom:1px solid rgba(159,211,255,.4);
+      padding:30px 0;
+    }
+    .city {
+      font-size:24px;
+      font-weight:700;
+      letter-spacing:2px;
+      margin:10px 0;
+    }
+    .highlight { color:#ffffff; }
+    .booking {
+      margin-top:40px;
+    }
+    .btn {
+      display:inline-block;
+      padding:18px 46px;
+      border-radius:999px;
+      background:linear-gradient(120deg,#c0c0c0,#ffffff,#9fd3ff,#c0c0c0);
+      color:#000;
+      text-decoration:none;
+      font-weight:900;
+      font-size:22px;
+      letter-spacing:2px;
+      box-shadow:0 0 25px rgba(192,192,192,.9);
+    }
+    footer {
+      margin-top:40px;
+      font-size:14px;
+      opacity:.8;
+      letter-spacing:1px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="poster">
+  <div class="chrome"></div>
+
+  <div>
+    <div class="subtitle">DELIVERING NIGHTS TO REMEMBER</div>
+
+    <!-- HEADSHOT AREA: Replace src with your image URL -->
+    <div class="headshot-wrap">
+      <img class="headshot" src="https://via.placeholder.com/600x600.png?text=DJ+Billy" alt="DJ Billy Headshot" />
+    </div>
+    <div class="headshot-caption">DJ BILLY</div>
+
+    <h1>DJ BILLY</h1>
+    <div class="subtitle"> R&B , SOUL, TOP 40, POP, Hip Hop, Themed setlist for any era </div>
+  </div>
+
+  <div class="dates">
+    <div class="city">RALEIGH • CHARLOTTE • GREENSBORO</div>
+    <div class="city highlight"> RICHMOND • WASHINGTON DC</div>
+    <div class="city">PRIVATE EVENTS • CORPORATE EVENTS • WEDDINGS </div>
+  </div>
+
+  <div class="booking">
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSejvr5y7dGEaN1oBAvthWhoggJoevFS78ZoJeAi6jp8-hoyMg/viewform?usp=header" target="_blank">BOOK THE TOUR</a>
+  </div>
+
+  <footer>
+    © 2026 DJ Billy • North Carolina Based DJ• Instagram @djbilly_NC • 
+  </footer>
+</div>
+
+</body>
+</html>
